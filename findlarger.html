@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>larger</title>
+
+    
+</head>
+<body>
+    <div >
+        <input id="demo2" type="text" value=0>
+  <br>
+        <button type="submit" onclick="document.getElementById('demo').innerHTML=arr.find(myfunction)" id="demo3">click_to_find_larger.</button>
+        <h4 id="demo"></h4>
+    </div>
+    <script>
+  let arr=[10,20,30,40,50];
+  function myfunction(number)
+  {
+ if(number > document.getElementById('demo2').value)
+ {
+    return number;
+ }
+  }
+    </script>
+</body>
+</html>
