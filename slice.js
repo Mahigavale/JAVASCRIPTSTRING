@@ -7,4 +7,3 @@ let str2=str.slice(0,6);
 console.log(str2);
 let arr=str.split('');
 console.log(arr);
-console.log('fghjk');
