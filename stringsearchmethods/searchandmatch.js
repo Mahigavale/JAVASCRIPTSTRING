@@ -6,5 +6,5 @@ console.log(str.search('xyz'));
 console.log(str.search('am'));
 // //==comment
 // /asdf/gi== regular expression.
-console.log(str.match(/am/gi));
+console.log(str.match(/xy/gi));
 //match takes the regex as input and returns accordingly.
